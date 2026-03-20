@@ -533,7 +533,7 @@ function GetIcon(p, mode)
                 h = ScrH(),
                 type = "3D",
                 origin = mainent:LocalToWorld(center) + Vector(0, -viewdist, 0),
-                angles = Vector(0, 90, 0),
+                angles = Angle(0, 90, 0),
                 aspect = 1,
                 fov = fov,
                 -- znear = znear, -- zfar = zfar, -- ortho = {left=unclampedlerp(cx-hw,-rad,rad),bottom=unclampedlerp(cy-hh,rad,-rad),right=unclampedlerp(cx+hw,-rad,rad),top=unclampedlerp(cy+hh,rad,-rad)},
